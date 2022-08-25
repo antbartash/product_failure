@@ -3,7 +3,7 @@ A company has completed a large testing study for different product prototypes. 
 <br>
 ## Notebooks
 Analysis of features distributions and correlations in the dataset can be found in the data_exploration_and_preprocessing.ipynb notebook. It also contains preprossing steps, that are needed for some models. <br> 
-Decision trees, AdaBoost and ExtraTrees models were built and tuned in the trees.ipynb file. The logreg_smv.ipynb file contains logistic regression and SVM models. In order to track the progress of parameters tuning process, high level of verbosity was used in trees.ipynb and logreg_svm.ipynb files. Therefore, it is recommended to open them in Google Colab on other tools to make output of some cells easier to skip. <br>
+Decision trees, AdaBoost and ExtraTrees models were built and tuned in the trees.ipynb file. The logreg_smv.ipynb file contains logistic regression and SVM models. In order to track the progress of parameters tuning process, high level of verbosity was used in trees.ipynb and logreg_svm.ipynb files. Therefore, it is recommended to open them in Google Colab or other tools to make output of some cells easier to skip. <br>
 XGBoost, LightGBM and CatBoost models were built and tuned in xgboost.ipynb, lgbm.ipynb and catboost.ipynb notebooks respectively. 
 <br>
 ## Results
