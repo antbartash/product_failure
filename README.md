@@ -2,7 +2,7 @@
 A company has completed a large testing study for different product prototypes. Each prototype is used in a simulated real-world environment experiment, and absorbs a certain amount of fluid (loading) to see whether or not it fails. For each product_code there is a number of product attributes as well as a number of measurement values for each individual product, representing various lab testing methods. The aim of the project is to build a model that predicts product failures.
 <br>
 ## Notebooks
-Analysis of features distributions and correlations in the dataset can be found in the data_exploration_and_preprocessing.ipynb notebook. It also contains preprossing steps, that are needed for some models. <br> 
+Analysis of features distributions and correlations in the dataset can be found in the data_exploration_and_preprocessing.ipynb notebook. It also contains preprossing steps that are needed for some models. <br> 
 Decision trees, AdaBoost and ExtraTrees models were built and tuned in the trees.ipynb file. The logreg_smv.ipynb file contains logistic regression and SVM models. In order to track the progress of parameters tuning process, high level of verbosity was used in trees.ipynb and logreg_svm.ipynb files. Therefore, it is recommended to open them in Google Colab or other tools to make output of some cells easier to skip. <br>
 XGBoost, LightGBM and CatBoost models were built and tuned in xgboost.ipynb, lgbm.ipynb and catboost.ipynb notebooks respectively. 
 <br>
